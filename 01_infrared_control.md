@@ -29,10 +29,10 @@ basic.forever(function () {
     } else if (IR_var == 2) {
         cbit_小车类.AloneCtrlSpeed(cbit_小车类.AloneState.Left_F_Motor, 120)
         cbit_小车类.AloneCtrlSpeed(cbit_小车类.AloneState.Right_F_Motor, 155)
-    } else if (false) {
+    } else if (IR_var == 3) {
         cbit_小车类.AloneCtrlSpeed(cbit_小车类.AloneState.Left_Z_Motor, 0)
         cbit_小车类.AloneCtrlSpeed(cbit_小车类.AloneState.Right_Z_Motor, 120)
-    } else if (IR_var == 3) {
+    } else if (IR_var == 4) {
         cbit_小车类.AloneCtrlSpeed(cbit_小车类.AloneState.Left_Z_Motor, 120)
         cbit_小车类.AloneCtrlSpeed(cbit_小车类.AloneState.Right_Z_Motor, 0)
     } else {
